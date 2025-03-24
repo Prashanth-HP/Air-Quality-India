@@ -18,13 +18,6 @@ def main():
         elif sidebar == "Chatbot":
             chatbot_page()
         
-        # Logout Button
-        if st.sidebar.button("Logout", key="logout_button"):
-            st.session_state.logged_in = False
-            st.success("Logged out successfully.")
-            st.experimental_rerun()  # Refresh the page to update state
         
-
-
 if __name__ == "__main__":
     main()
