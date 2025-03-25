@@ -9,11 +9,11 @@ def main():
         sidebar = st.sidebar.radio("",["🛖 Home", "🌍 About Gases and cities", "📊 Dashboard", "🤖 Chatbot"])
 
         if sidebar == "🛖 Home":
-            dashboard_page()
-        elif sidebar == "🌍 About Gases and cities":
             Home()
-        elif sidebar == "📊 Dashboard":
+        elif sidebar == "🌍 About Gases and cities":
             city_and_gases()
+        elif sidebar == "📊 Dashboard":
+            dashboard_page()
         elif sidebar == "🤖 Chatbot":
             chatbot_page()
            
