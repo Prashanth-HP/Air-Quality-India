@@ -4,6 +4,6 @@ numpy
 matplotlib
 plotly
 fuzzywuzzy
-fpdf2
+fpdf==1.7.2
 setuptools>=68.0.0
 rapidfuzz
