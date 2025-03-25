@@ -1,7 +1,7 @@
 import streamlit as st
 
 def dashboard_page():
-    st.title("Power BI Dashboard")
+    st.title("📊 Power BI Dashboard")
 
     # Create two columns to display images side by side
     col1, col2 = st.columns(2)
