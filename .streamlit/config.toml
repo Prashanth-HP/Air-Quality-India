@@ -1,6 +1,6 @@
 [theme]
-primaryColor = "#1E88E5"
-backgroundColor = "#121212"
-secondaryBackgroundColor = "#1F1F1F"
-textColor = "#E0E0E0"
+primaryColor = "#FF6B6B"  # Vibrant Coral Red
+backgroundColor = "#F8F9FA"  # Soft Light Gray
+secondaryBackgroundColor = "#E9ECEF"  # Slightly Darker Gray
+textColor = "#212529"  # Deep Charcoal
 font = "sans serif"
