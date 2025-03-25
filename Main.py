@@ -6,7 +6,7 @@ from cityandgases import city_and_gases
 def main():
     
         st.sidebar.title("Menu")
-        sidebar = st.sidebar.radio("",["Home", "About Gases ans cities", "Dashboard", "Chatbot"])
+        sidebar = st.sidebar.radio("",["🛖 Home", "🌍 About Gases and cities", "📊 Dashboard", "🤖 Chatbot"])
 
         if sidebar == "Dashboard":
             dashboard_page()
