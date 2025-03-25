@@ -18,7 +18,7 @@ def get_best_match(user_input, qa_df):
     return "I couldn't find an exact match. Please try rephrasing your question."
 
 def chatbot_page():
-    st.title("Chatbot")
+    st.title("🤖 Chatbot")
     st.write("Ask questions related to air quality!")
 
     if "conversation_history" not in st.session_state:
