@@ -4,7 +4,7 @@ from fuzzywuzzy import process
 from fpdf import FPDF
 
 # Load chatbot question-answer dataset
-qa_file_path = "cb_questions.csv"
+qa_file_path = "data/cb_questions.csv"
 qa_df = pd.read_csv(qa_file_path)
 qa_df.dropna(subset=["Question", "Answer"], inplace=True)  # Remove empty values
 qa_df["Question"] = qa_df["Question"].str.strip()
