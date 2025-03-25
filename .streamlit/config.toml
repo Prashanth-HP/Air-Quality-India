@@ -3,4 +3,4 @@ primaryColor = "#5E81AC"  # Elegant Blue
 backgroundColor = "#2E3440"  # Deep Dark Gray
 secondaryBackgroundColor = "#3B4252"  # Slightly Lighter Gray
 textColor = "#ECEFF4"  # Soft White
-font = "monospace"
+font = "Arial"
