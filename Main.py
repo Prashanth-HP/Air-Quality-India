@@ -8,13 +8,13 @@ def main():
         st.sidebar.title("Menu")
         sidebar = st.sidebar.radio("",["🛖 Home", "🌍 About Gases and cities", "📊 Dashboard", "🤖 Chatbot"])
 
-        if sidebar == "Dashboard":
+        if sidebar == "🛖 Home":
             dashboard_page()
-        elif sidebar == "Home":
+        elif sidebar == "🌍 About Gases and cities":
             Home()
-        elif sidebar == "About Gases ans cities":
+        elif sidebar == "📊 Dashboard":
             city_and_gases()
-        elif sidebar == "Chatbot":
+        elif sidebar == "🤖 Chatbot":
             chatbot_page()
            
 if __name__ == "__main__":
