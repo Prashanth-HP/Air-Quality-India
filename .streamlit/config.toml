@@ -1,6 +1,6 @@
 [theme]
-primaryColor = "#5E81AC"  # Elegant Blue
-backgroundColor = "#2E3440"  # Deep Dark Gray
-secondaryBackgroundColor = "#3B4252"  # Slightly Lighter Gray
-textColor = "#ECEFF4"  # Soft White
+primaryColor = "#F5A623"  # Warm Vibrant Orange
+backgroundColor = "#121212"  # Pure Black for contrast
+secondaryBackgroundColor = "#1E1E1E"  # Dark Charcoal for depth
+textColor = "#EAEAEA"  # Soft White for comfort
 font = "Arial"
