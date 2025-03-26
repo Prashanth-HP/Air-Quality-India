@@ -3,6 +3,7 @@ from Home import Home
 from dashboard import dashboard_page
 from chatbot import chatbot_page
 from cityandgases import city_and_gases
+st.set_page_config(layout="wide")
 def main():
     
         st.sidebar.title("Menu")
